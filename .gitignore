@@ -29,3 +29,11 @@ msbuild.wrn
 
 # Visual Studio Code
 .vscode
+
+# dotnet stuff
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
