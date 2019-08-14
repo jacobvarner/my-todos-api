@@ -1,27 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jacobvarner/Google Drive/Websites/my-todos-api/my-todos-api.csproj": {}
+    "/Users/jacobvarner/Google Drive/Websites/MyTodosAPI/MyTodosAPI.csproj": {}
   },
   "projects": {
-    "/Users/jacobvarner/Google Drive/Websites/my-todos-api/my-todos-api.csproj": {
+    "/Users/jacobvarner/Google Drive/Websites/MyTodosAPI/MyTodosAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jacobvarner/Google Drive/Websites/my-todos-api/my-todos-api.csproj",
-        "projectName": "my-todos-api",
-        "projectPath": "/Users/jacobvarner/Google Drive/Websites/my-todos-api/my-todos-api.csproj",
+        "projectUniqueName": "/Users/jacobvarner/Google Drive/Websites/MyTodosAPI/MyTodosAPI.csproj",
+        "projectName": "MyTodosAPI",
+        "projectPath": "/Users/jacobvarner/Google Drive/Websites/MyTodosAPI/MyTodosAPI.csproj",
         "packagesPath": "/Users/jacobvarner/.nuget/packages/",
-        "outputPath": "/Users/jacobvarner/Google Drive/Websites/my-todos-api/obj/",
+        "outputPath": "/Users/jacobvarner/Google Drive/Websites/MyTodosAPI/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "/Users/jacobvarner/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp2.2"
-        ],
+        "fallbackFolders": ["/usr/local/share/dotnet/sdk/NuGetFallbackFolder"],
+        "configFilePaths": ["/Users/jacobvarner/.nuget/NuGet/NuGet.Config"],
+        "originalTargetFrameworks": ["netcoreapp2.2"],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -31,9 +25,7 @@
           }
         },
         "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
+          "warnAsError": ["NU1605"]
         }
       },
       "frameworks": {
@@ -57,9 +49,7 @@
               "autoReferenced": true
             }
           },
-          "imports": [
-            "net461"
-          ],
+          "imports": ["net461"],
           "assetTargetFallback": true,
           "warn": true
         }

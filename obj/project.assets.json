@@ -12079,11 +12079,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jacobvarner/Google Drive/Websites/my-todos-api/my-todos-api.csproj",
-      "projectName": "my-todos-api",
-      "projectPath": "/Users/jacobvarner/Google Drive/Websites/my-todos-api/my-todos-api.csproj",
+      "projectUniqueName": "/Users/jacobvarner/Google Drive/Websites/MyTodosAPI/MyTodosAPI.csproj",
+      "projectName": "MyTodosAPI",
+      "projectPath": "/Users/jacobvarner/Google Drive/Websites/MyTodosAPI/MyTodosAPI.csproj",
       "packagesPath": "/Users/jacobvarner/.nuget/packages/",
-      "outputPath": "/Users/jacobvarner/Google Drive/Websites/my-todos-api/obj/",
+      "outputPath": "/Users/jacobvarner/Google Drive/Websites/MyTodosAPI/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
