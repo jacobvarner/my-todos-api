@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jacobvarner/Google Drive/Websites/my-todos-api/my-todos-api.csproj": {}
+  },
+  "projects": {
+    "/Users/jacobvarner/Google Drive/Websites/my-todos-api/my-todos-api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jacobvarner/Google Drive/Websites/my-todos-api/my-todos-api.csproj",
+        "projectName": "my-todos-api",
+        "projectPath": "/Users/jacobvarner/Google Drive/Websites/my-todos-api/my-todos-api.csproj",
+        "packagesPath": "/Users/jacobvarner/.nuget/packages/",
+        "outputPath": "/Users/jacobvarner/Google Drive/Websites/my-todos-api/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/jacobvarner/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
