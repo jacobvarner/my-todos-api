@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
-    <RootNamespace>my_todos_api</RootNamespace>
+    <RootNamespace>MyTodosAPI</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
