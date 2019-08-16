@@ -12,6 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using MyTodosAPI.Models;
+using MyTodosAPI.Services;
 
 namespace MyTodosAPI {
     public class Startup {
@@ -23,8 +24,10 @@ namespace MyTodosAPI {
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services) {
-            services.AddDbContext<TodoContext>(opt => opt.UseInMemoryDatabase("TodoList"));
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.Configure<MyTodosDatabaseSettings>(Configuration.GetSection(nameof(MyTodosDatabaseSettings)));
+            services.AddSingleton<IMyTodosDatabaseSettings>(sp => sp.GetRequiredService<IOptions<MyTodosDatabaseSettings>>().Value);
+            services.AddSingleton<TodoService>();
+            services.AddMvc().AddJsonOptions(options => options.UseMemberCasing()).SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

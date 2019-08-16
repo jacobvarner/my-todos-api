@@ -6,6 +6,6 @@ namespace MyTodosAPI.Models {
 
     }
 
-    public DbSet<TodoItem> TodoItems { get; set; }
+    public DbSet<Todo> Todos { get; set; }
   }
 }
