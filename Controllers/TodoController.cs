@@ -28,7 +28,7 @@ namespace MyTodosAPI.Controllers {
     }
 
     // GET: api/todo/{id}
-    [HttpGet("{id")]
+    [HttpGet("{id}")]
     public async Task<ActionResult<TodoItem>> GetTodoItem(long id) {
       var todoItem = await _context.TodoItems.FindAsync(id);
 
